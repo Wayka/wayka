@@ -1,8 +1,8 @@
 @media all {
     body{
-           background:url("../isoLogoWaika.png") -38em 10em no-repeat ;
+        background:url("isoLogoWaika.png") -38em 10em no-repeat ;
         background-blend-mode:hue;
-    background-size:93%;
+        background-size:93%;
         z-index:9999;
         position:relative!important;
         font-family: Inconsolata;
@@ -10,15 +10,13 @@
     }
     
     body:before {  
-           background:url("../waikaFinalLogo-01.png") -3em 0 no-repeat ;
-    background-size:100%;
-  height:10em;
-  width: 96%;   
-  padding:0; 
- display:block;  
-      
-
-  content: ""; }
+        background:url("waikaFinalLogo-01.png") -3em 0 no-repeat ;
+        background-size:100%;
+        height:22em;
+        width: 96%;   
+        padding:0; 
+        display:block;  
+        content: ""; } 
 
 /*------------------------------------*\
 	LISTS
@@ -39,17 +37,17 @@
 	border-bottom:1px solid #ccc;
 	float:left;
 	display:inline;
-}
-div.competencias ul.org-ul li	{ width:50%;}
+    }
+    div.competencias ul.org-ul li	{ width:50%;}
 
 
-div.competencias u.org-ul {
-    list-style:     none;
-    margin:         0.75em 0;
-    padding:        0 1em;
-}
+    div.competencias u.org-ul {
+        list-style:     none;
+        margin:         0.75em 0;
+        padding:        0 1em;
+    }
 
-div.competencias ul.org-ul li:before {
+    div.competencias ul.org-ul li:before {
     content:        "";
     border-color:   transparent #555;
     border-style:   solid;
@@ -60,17 +58,17 @@ div.competencias ul.org-ul li:before {
     position:       relative;
     top:            1.15em;
     width:          0;
-}
+    }
 
-h3{
-        clear:both;
-}
+    h3{
+            clear:both;
+    }
 
     
- p{    
- /*   font-family: 'Titillium Web', sans-serif; */
-    font-family: 'Lora', serif;
-}
+     p{    
+     /*   font-family: 'Titillium Web', sans-serif; */
+        font-family: 'Lora', serif;
+    }
     
     ul.org-ul li{
         padding:0;
@@ -78,7 +76,7 @@ h3{
        
     }
     ul.org-ul + p{line-height: 1.1em;}
-    }
+}
 /*
 ul.org-ul + p > b{
 				display:block;
@@ -94,9 +92,9 @@ ul.org-ul + p > b{
 
     font-family: 'Arimo', sans-serif;
     }
-p b{ 
- font-family: 'Arimo', sans-serif;
- }
+    p b{ 
+     font-family: 'Arimo', sans-serif;
+     }
 
 /* putting pictures of each one */    
     h2#orgheadline4:before{
@@ -106,7 +104,7 @@ p b{
         height:100px;
         border:1px solid #ccc;
         border-width:0 0 1px 0;
-        background:url("../images/team.jpg") 0 2px no-repeat;
+        background:url("team.jpg") 0 2px no-repeat;
         background-size:750px;     
         
         
@@ -118,7 +116,7 @@ p b{
         height:133px;
         border:1px solid #ccc;
         border-width:0 0 1px 0;
-        background:url("../images/fiorella.jpg") 0 2px no-repeat;
+        background:url("fiorella.jpg") 0 2px no-repeat;
         background-size:200px;
     } 
 
@@ -129,7 +127,7 @@ p b{
         height:133px;
         border:1px solid #ccc;
         border-width:0 0 1px 0;
-        background:url("../images/eugenia.jpg") 0 2px no-repeat;
+        background:url("eugenia.jpg") 0 2px no-repeat;
         background-size:200px;
     } 
 
@@ -140,7 +138,7 @@ p b{
         height:133px;
         border:1px solid #ccc;
         border-width:0 0 1px 0;
-        background:url("../images/eugeniaSoria.jpg") 0 2px no-repeat;
+        background:url("eugeniaSoria.jpg") 0 2px no-repeat;
         background-size:200px;
     } 
 
@@ -151,7 +149,7 @@ p b{
         height:133px;
         border:1px solid #ccc;
         border-width:0 0 1px 0;
-        background:url("../images/hector.jpg") 0 2px no-repeat;
+        background:url("hector.jpg") 0 2px no-repeat;
         background-size:200px;
     } 
 
@@ -163,7 +161,7 @@ p b{
         height:133px;
         border:1px solid #ccc;
         border-width:0 0 1px 0;
-        background:url("../images/ignacio_square.jpg") 0 2px no-repeat;
+        background:url("ignacio_square.jpg") 0 2px no-repeat;
         background-size:200px;
     } 
     
@@ -174,7 +172,7 @@ p b{
         height:133px;
         border:1px solid #ccc;
         border-width:0 0 1px 0;
-        background:url("../images/fabian.jpg") 0 2px no-repeat;
+        background:url("fabian.jpg") 0 2px no-repeat;
         background-size:200px;
     } 
     
@@ -218,5 +216,3 @@ ul.org-ul + p{
 #quad li		{ width:25%; }
 #six li		{ width:16.666%; }
     */
-}
-}
